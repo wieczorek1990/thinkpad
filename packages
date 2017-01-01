@@ -1,0 +1,40 @@
+## CLI
+automake
+cloc
+cups
+curl
+docker-engine
+fish
+flac
+gedit-plugins
+git
+moreutils
+moreutils-parallel
+octave
+python3-httpie
+redshift
+rpm-build
+ruby-devel
+pmount
+readline-devel
+sox
+
+## GUI
+audacity
+banshee
+gnome-shell-extension-pomodoro
+hplip-gui
+klavaro
+meld
+NetworkManager-openvpn-gnome
+picard
+sound-juicer
+soundconverter
+
+## Manual installation
+# Dropbox - https://www.dropbox.com/install-linux
+# gnome-terminal-colors-solarized - https://github.com/Anthony25/gnome-terminal-colors-solarized
+# Hangouts - https://www.google.com/tools/dlpage/hangout/download.html?hl=pl
+# intellij-colors-solarized - https://github.com/jkaving/intellij-colors-solarized
+# JetBrains Toolbox - https://www.jetbrains.com/toolbox/
+

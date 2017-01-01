@@ -1,0 +1,3 @@
+# Thinkpad
+
+Thinkpad setup scripts.
