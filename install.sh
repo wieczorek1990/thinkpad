@@ -23,9 +23,11 @@ sudo make install
 
 # http://negativo17.org/spotify-client/
 sudo dnf config-manager --add-repo=http://negativo17.org/repos/fedora-spotify.repo
+sudo dnf config-manager --add-repo=http://negativo17.org/repos/fedora-multimedia.repo
 sudo dnf install spotify-client
+sudo dnf install compat-ffmpeg-libs
 # workaround
-wget -O spotify-client.deb http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.44.100.ga60c0ce1-89_amd64.deb
+wget -O spotify-client.deb http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.45.186.g3b5036d6-95_amd64.deb
 ar -x spotify-client.deb
 tar xf data.tar.gz
 sudo cp -r usr/share/spotify/* /lib64/spotify-client/
