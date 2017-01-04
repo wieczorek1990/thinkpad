@@ -13,11 +13,6 @@ git clone https://github.com/wieczorek1990/fish-config.git && ./fish-config/inst
 sudo systemctl enable docker.service
 sudo systemctl start docker
 
-# https://keybase.io/
-wget https://prerelease.keybase.io/keybase_amd64.rpm
-sudo dnf install ./keybase_amd64.rpm
-run_keybase
-
 # https://github.com/thoughtbot/gitsh
 curl -OL https://github.com/thoughtbot/gitsh/releases/download/v0.11.1/gitsh-0.11.1.tar.gz
 tar -zxvf gitsh-0.11.1.tar.gz
@@ -64,5 +59,11 @@ gnome-shell-extension-tool -e gTile@vibou
 # https://copr.fedorainfracloud.org/coprs/mystro256/gnome-redshift/
 sudo dnf copr enable mystro256/gnome-redshift
 sudo dnf install gnome-shell-extension-redshift
-gnome-shell-extension-prefs
+
+gnome-shell-extension-prefs &
+
+# https://keybase.io/
+wget https://prerelease.keybase.io/keybase_amd64.rpm
+sudo dnf install ./keybase_amd64.rpm
+run_keybase
 
