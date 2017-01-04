@@ -3,6 +3,7 @@ automake
 cloc
 cups
 curl
+docker-compose
 docker-engine
 fish
 flac
