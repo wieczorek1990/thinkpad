@@ -50,6 +50,9 @@ ssh-keygen -b 4096
 # https://github.com/kamranahmedse/git-standup 
 curl -L https://raw.githubusercontent.com/kamranahmedse/git-standup/master/installer.sh | sudo sh
 
+git clone git@github.com:Anthony25/gnome-terminal-colors-solarized.git
+(cd gnome-terminal-colors-solarized &&./install.sh)
+
 # https://github.com/deadalnix/pixel-saver
 git clone https://github.com/deadalnix/pixel-saver.git pixel-saver@deadalnix.me
 gnome-shell-extension-tool -e ~/.local/share/gnome-shell/extensions/pixel-saver@deadalnix.me
